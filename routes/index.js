@@ -9,8 +9,4 @@ router.get('/', function (req, res) {
   res.render( 'index', { title:"Check Out the tweets!", tweets: tweets } );
 });
 
-// router.get("/special", function(req,res, next){
-//     console.log("you got to special spot!");
-//     next();
-// })
 module.exports = router;
